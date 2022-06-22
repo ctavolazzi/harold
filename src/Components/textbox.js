@@ -2,6 +2,7 @@ import getRandomInt from '../Helper_Functions/getRandomInt.js';
 
 console.log('getrandomint', getRandomInt);
 
+// add strings to the responses array to change what shows on the main app screen
 const textbox = {
   id: "textbox_01",
   responses: ["Let's go!", "Well how about that.", "Creativity is the spark of life", "There is a ghost in the machine..."],
