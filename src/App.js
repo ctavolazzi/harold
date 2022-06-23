@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import identify from './Helper_Functions/identify.js';
 import textbox from './Components/textbox.js';
 
 function App() {
@@ -12,19 +13,19 @@ function App() {
         {textbox.initialize()}
         </div>
 
-      <form>
+      <form className="Login">
         <label>
           Username:
-          <input type="text" name="name" />
+          <input type="text" name="usernamename" />
         </label>
         <label>
           Password:
-          <input type="text" name="name" />
+          <input type="password" name="current-password" />
         </label>
-        <input type="submit" value="Submit" onClick={() => textbox.identify()}/>
+        <input type="submit" value="Submit" onClick={() => identify("Submitted Successfully")}/>
       </form>
 
-      <button onClick={() => textbox.identify()}>Test</button>
+      <button className="TestButton" onClick={() => identify(textbox)}>Test</button>
 
       </header>
     </div>

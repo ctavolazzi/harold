@@ -37,13 +37,26 @@
   }
 }
 
-/* .Textbox {
-  background-color: #ff0000;
-  min-height: 10vh;
-  display: flex;
+.Textbox {
+  margin: 10px;
+  padding: 10px;
+  /* min-height: 10vh; */
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-} */
+  color: white; */
+}
+
+.Login {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.TestButton {
+  padding: 10px;
+  margin: 10px;
+}
