@@ -9,9 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-      <div className="Textbox">
+      <div className="MainDisplay">
         {textbox.initialize()}
-        </div>
+      </div>
 
       <form className="Login">
         <label>
