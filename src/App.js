@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import identify from './Functions/Diagnostics/identify.js';
-import textbox from './Components/textbox.js';
+// import identify from './Functions/Diagnostics/identify.js';
+// import textbox from './Components/textbox.js';
 // import createElem from './Functions/Rendering/createElem.js';
 import TextForm from './Components/TextForm.js';
 import LoginForm from './Components/LoginForm.js';
