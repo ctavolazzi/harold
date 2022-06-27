@@ -1,4 +1,4 @@
-import getRandomInt from '../Helper_Functions/getRandomInt.js';
+import getRandomInt from '../Functions/Helpers/getRandomInt.js';
 
 console.log('getrandomint', getRandomInt);
 

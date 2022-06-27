@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import identify from './Helper_Functions/identify.js';
+import identify from './Functions/Diagnostics/identify.js';
 import textbox from './Components/textbox.js';
 
 function App() {
