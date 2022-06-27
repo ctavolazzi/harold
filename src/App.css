@@ -79,6 +79,13 @@
   background-color: rgb(93, 0, 255);
 }
 
+.TextForm textarea {
+  margin: 10px;
+  padding: 10px;
+  height: 100px;
+  color: rgb(93, 0, 255);
+}
+
 .Test {
   background-color: coral;
   color: aqua;

@@ -26,7 +26,7 @@ function App() {
         <TextForm></TextForm>
       </div>
 
-      <button className="TestButton" onClick={() => identify(textbox)}>Test</button>
+      {/* <button className="TestButton" onClick={() => identify(textbox)}>Test</button> */}
 
       </header>
     </div>
