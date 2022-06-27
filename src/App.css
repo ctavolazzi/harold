@@ -72,3 +72,14 @@
   padding: 10px;
   margin: 10px;
 }
+
+.TextForm {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(93, 0, 255);
+}
+
+.Test {
+  background-color: coral;
+  color: aqua;
+}
