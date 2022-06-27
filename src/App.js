@@ -16,17 +16,6 @@ function App() {
         {createElem(textbox.initialize())}
       </div>
 
-      {/* <form className="Login">
-        <label>
-          Username:
-          <input type="text" name="usernamename" />
-        </label>
-        <label>
-          Password:
-          <input type="password" name="current-password" />
-        </label>
-        <input type="submit" value="Submit" onClick={() => identify("Submitted Successfully")}/>
-      </form> */}
       <div className="Login">
         <LoginForm></LoginForm>
       </div>
