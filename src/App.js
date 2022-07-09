@@ -5,7 +5,7 @@ import React from 'react';
 // import textbox from './Components/textbox.js';
 // import createElem from './Functions/Rendering/createElem.js';
 import TextForm from './Components/TextForm.js';
-import LoginForm from './Components/LoginForm.js';
+// import LoginForm from './Components/LoginForm.js';
 import MainDisplay from './Components/MainDisplay.js';
 
 class App extends React.Component {
@@ -13,7 +13,8 @@ class App extends React.Component {
     super(props)
     this.state = {
       value: 'Well how about that.',
-      display: 'Look at you go!'
+      display: 'Look at you go!',
+      chatlog: 'What will happen?'
     }
   }
 
@@ -29,11 +30,11 @@ class App extends React.Component {
 
         <div className="MainDisplay">
           {/* {createElem(textbox.initialize())} */}
-          <MainDisplay value={this.state.value}/>
+          <MainDisplay value={this.state.chatlog}/>
         </div>
 
         <div className="TextForm">
-          <TextForm value="Enter text here..."/>
+          <TextForm value="Enter text here...Ya goober"/>
         </div>
 
         {/* <button className="TestButton" onClick={() => identify(textbox)}>Test</button> */}
