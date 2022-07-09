@@ -12,7 +12,8 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      value: ''
+      value: 'Well how about that.',
+      display: 'Look at you go!'
     }
   }
 
@@ -22,17 +23,17 @@ class App extends React.Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
 
-        <div className="Login">
-          <LoginForm />
-        </div>
+        {/* <div className="Login">
+          <LoginForm username="Username" password="Password"/>
+        </div> */}
 
         <div className="MainDisplay">
           {/* {createElem(textbox.initialize())} */}
-          <MainDisplay value="Well how about that"/>
+          <MainDisplay value={this.state.value}/>
         </div>
 
         <div className="TextForm">
-          <TextForm />
+          <TextForm value="Enter text here..."/>
         </div>
 
         {/* <button className="TestButton" onClick={() => identify(textbox)}>Test</button> */}

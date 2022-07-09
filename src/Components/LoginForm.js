@@ -4,7 +4,7 @@ class LoginForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      username: 'admin',
+      username: 'EloSucksDonkeyFeet',
       password: 'password'
     };
 
@@ -31,6 +31,10 @@ class LoginForm extends React.Component {
     console.log(this.state)
     if(this.state.password === 'admin1234567') {
       alert('Successfully Logged In')
+      //this.setState({username: '', password: ''})
+      //change CSS so this part of the page disappears
+      //ideal behavior is the login box disappears and is replaced by the MainDisplay and TextForm
+      //before they should be hidden
     } else {
       alert('Incorrect Password: ' + this.state.password + '\nCorrect Password: admin1234567');
     }

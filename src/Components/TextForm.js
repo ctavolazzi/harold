@@ -4,7 +4,7 @@ class TextForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: 'Enter text here'
+      value: ''
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -23,7 +23,7 @@ class TextForm extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          <textarea value={this.state.value} onChange={this.handleChange} />
+          <textarea value={this.props.value} onChange={this.handleChange} />
         </label>
         <input type="submit" value="Submit" />
       </form>
